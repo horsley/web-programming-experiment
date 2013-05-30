@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="WebApplication3.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+ <div id="page">
+  <div id="content">
+    
+    <asp:ContentPlaceHolder ID="content_area" runat="server">
+      </asp:ContentPlaceHolder>
+    <div style="clear: both;">&nbsp;</div>
+  </div>
+  <!-- end #content -->
+  <div id="sidebar">
+      <div id="logo">
+      <h1><a href="#">科学史 </a></h1>
+      <p></p>
+      </div>
+    <div id="menu">
+      <ul>
+        <li class="current_page_item"><a href="http://www.865171.cn">主页</a></li>
+        <li><a href="#">专题</a></li>
+        <li><a href="#">评论</a></li>
+        <li><a href="#">关于</a></li>
+        <li><a href="#">链接</a></li>
+        <li><a href="#">帮助</a></li>
+        </ul>
+      </div>
+    <ul>
+      <li>
+        <div id="search" >
+          <form method="get" action="#">
+            <div>
+                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                &nbsp;
+                <asp:Button ID="Button1" runat="server" Text="搜索" />
+              </div>
+            </form>
+          </div>
+        <div style="clear: both;">&nbsp;</div>
+        </li>
+      <li>
+        <h2>精彩栏目</h2>
+        <ul>
+          <li><a href="#">巴比伦数学</a></li>
+          <li><a href="#">人类史上第一部医学著作</a></li>
+          <li><a href="#">印度铁</a></li>
+          <li><a href="#">另一面</a></li>
+          <li><a href="#">柏拉图学院</a></li>
+          <li><a href="#">新兴学科 </a></li>
+          </ul>
+        </li>
+      
+      </ul>
+    </div>
+    </div>
+  <!-- end #sidebar -->
+  <div style="clear: both;">&nbsp;</div>
+</div>
+  <!-- end #page -->
+
+<div id="footer">
+  <p>Copyright (c) 2008 Sitename.com. All rights reserved. Design by <a href="http://www.865171.cn/">免费模板网</a>.</p>
+</div>
+<!-- end #footer -->
+    </form>
+</body>
+</html>
