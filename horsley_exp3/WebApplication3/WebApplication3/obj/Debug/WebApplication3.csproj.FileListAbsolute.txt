@@ -1,5 +1,0 @@
-C:\Documents and Settings\Administrator\桌面\horsley_exp3\WebApplication3\WebApplication3\bin\WebApplication3.dll
-C:\Documents and Settings\Administrator\桌面\horsley_exp3\WebApplication3\WebApplication3\bin\WebApplication3.pdb
-C:\Documents and Settings\Administrator\桌面\horsley_exp3\WebApplication3\WebApplication3\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Administrator\桌面\horsley_exp3\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
-C:\Documents and Settings\Administrator\桌面\horsley_exp3\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb
