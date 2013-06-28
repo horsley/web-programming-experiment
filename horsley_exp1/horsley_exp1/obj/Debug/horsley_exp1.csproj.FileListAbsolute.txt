@@ -1,5 +1,0 @@
-C:\Documents and Settings\Administrator\桌面\horsley_exp1\horsley_exp1\bin\horsley_exp1.dll
-C:\Documents and Settings\Administrator\桌面\horsley_exp1\horsley_exp1\bin\horsley_exp1.pdb
-C:\Documents and Settings\Administrator\桌面\horsley_exp1\horsley_exp1\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Administrator\桌面\horsley_exp1\horsley_exp1\obj\Debug\horsley_exp1.dll
-C:\Documents and Settings\Administrator\桌面\horsley_exp1\horsley_exp1\obj\Debug\horsley_exp1.pdb
