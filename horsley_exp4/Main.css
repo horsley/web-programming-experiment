@@ -1,0 +1,41 @@
+﻿body 
+{
+    background-color:#fefefe;
+    clear:both;
+}
+#nav 
+{
+    background-color:#eef;
+    margin: 0.5em 0;
+    padding: 0.4em 0;
+}
+#container
+{
+    clear:both
+}
+#sidebar 
+{
+    float:left;
+    width:200px;
+    border-right: 1px solid #eeeeef;
+    text-align:center;
+}
+#sidebar table 
+{
+    margin:auto;
+}
+#content 
+{
+    margin-left:200px;
+    padding:1em;
+}
+
+.rememberme label 
+{
+    float:left;
+}
+
+.rememberme input
+{
+    float:left;
+}
