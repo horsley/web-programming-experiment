@@ -16,6 +16,7 @@
     <div id="container">
         <div id="sidebar">
         
+        
             <asp:LoginView ID="LoginView1" runat="server">
                 <LoggedInTemplate>
                     你好,<asp:LoginName ID="LoginName1" runat="server" />
@@ -80,7 +81,8 @@
                                                         &nbsp;</td>
                                                     <td align="left">
                                                         <asp:Button ID="LoginButton" runat="server" CommandName="Login" 
-                                                            CssClass="btn btn-primary" Text="登录" ValidationGroup="ctl01$Login1" />
+                                                            CssClass="btn btn-primary" Text="登录" ValidationGroup="ctl01$Login1" 
+                                                             />
                                                     </td>
                                                 </tr>
                                                 <tr>

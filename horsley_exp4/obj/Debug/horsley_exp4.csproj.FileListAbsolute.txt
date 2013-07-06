@@ -3,3 +3,8 @@ C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\horsley_exp4\horsley_exp4\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\horsley_exp4\horsley_exp4\obj\Debug\horsley_exp4.dll
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\horsley_exp4\horsley_exp4\obj\Debug\horsley_exp4.pdb
+E:\project\webp\horsley_exp4\bin\horsley_exp4.dll
+E:\project\webp\horsley_exp4\bin\horsley_exp4.pdb
+E:\project\webp\horsley_exp4\obj\Debug\ResolveAssemblyReference.cache
+E:\project\webp\horsley_exp4\obj\Debug\horsley_exp4.dll
+E:\project\webp\horsley_exp4\obj\Debug\horsley_exp4.pdb

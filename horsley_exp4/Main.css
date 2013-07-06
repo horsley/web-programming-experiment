@@ -16,9 +16,10 @@
 #sidebar 
 {
     float:left;
-    width:200px;
+    width:250px;
     border-right: 1px solid #eeeeef;
     text-align:center;
+    height: 337px;
 }
 #sidebar table 
 {
@@ -26,7 +27,7 @@
 }
 #content 
 {
-    margin-left:200px;
+    margin-left:250px;
     padding:1em;
 }
 
