@@ -38,7 +38,7 @@
                         工作证号码：</p>
                 </td>
                 <td class="style2">
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Height="22px"></asp:TextBox>
                 </td>
                 <td>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
@@ -91,13 +91,24 @@
                 <td class="style2">
                     <asp:DropDownList ID="DropDownList1" runat="server" 
                         DataSourceID="SqlDataSource1" DataTextField="DepartmentName" 
-                        DataValueField="DepartmentID">
+                        DataValueField="DepartmentName">
                     </asp:DropDownList>
                 </td>
                 <td>
                     <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
                         ConnectionString="<%$ ConnectionStrings:ConnectionString %>" 
-                        SelectCommand="SELECT [DepartmentID], [DepartmentName] FROM [Department]">
+                        SelectCommand="SELECT [DepartmentID], [DepartmentName] FROM [Department]" InsertCommand="INSERT INTO Employees(EmpIdCard, EmpName, Sex, Birth, Salary, EmpDepartment) VALUES 
+(@EmpIdCard, @EmpName, @Sex, @Birth, @Salary, @EmpDepartment)">
+                        <InsertParameters>
+                            <asp:ControlParameter ControlID="TextBox1" Name="EmpIdCard" 
+                                PropertyName="Text" />
+                            <asp:ControlParameter ControlID="TextBox2" Name="EmpName" PropertyName="Text" />
+                            <asp:ControlParameter ControlID="TextBox3" Name="Sex" PropertyName="Text" />
+                            <asp:ControlParameter ControlID="TextBox4" Name="Birth" PropertyName="Text" />
+                            <asp:ControlParameter ControlID="TextBox5" Name="Salary" PropertyName="Text" />
+                            <asp:ControlParameter ControlID="DropDownList1" Name="EmpDepartment" 
+                                PropertyName="SelectedValue" />
+                        </InsertParameters>
                     </asp:SqlDataSource>
                     <asp:SqlDataSource ID="SqlDataSource2" runat="server" 
                         ConnectionString="<%$ ConnectionStrings:ConnectionString %>" 

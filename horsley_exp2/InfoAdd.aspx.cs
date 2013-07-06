@@ -13,7 +13,7 @@ public partial class Default2 : System.Web.UI.Page
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-        SqlDataSource2.Insert();
-        Response.Redirect("InfoModify.aspx");
+        SqlDataSource1.Insert();
+        Response.Redirect("~/InfoModify.aspx");
     }
 }
