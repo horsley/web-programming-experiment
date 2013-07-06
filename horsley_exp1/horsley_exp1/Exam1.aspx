@@ -5,17 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title></title>
-    <script type="text/javascript">
-    
-      function pageLoad() {
-      }
-    
-    </script>
+
 </head>
 <body>
     <form id="form1" runat="server" method="post">
     <div>
-        <asp:ScriptManager ID="ScriptManager1" runat="server" />
     </div>
     <h1 align="center">
         <asp:Label ID="Label1" runat="server" Text="综合测试1"></asp:Label>
@@ -27,7 +21,7 @@
     <p align="left">
         一、单选题（每小题20分，共40分）</p>
     <p align="left">
-        1.中国历史上在位时间最长的皇帝是哪个？<<asp:RadioButtonList ID="RadioButtonList1" runat="server">
+                1.中国历史上在位时间最长的皇帝是哪个？<asp:RadioButtonList ID="RadioButtonList1" runat="server">
             <asp:ListItem Value="1">唐太宗</asp:ListItem>
             <asp:ListItem Value="2">康熙</asp:ListItem>
             <asp:ListItem Value="3">乾隆</asp:ListItem>
@@ -61,6 +55,9 @@
     <p align="left">
         <asp:Button ID="Button1" runat="server" onclick="Button1_Click" 
             style="height: 26px" Text="交卷" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button2" runat="server" CausesValidation="False" 
+            onclick="Button2_Click" Text="退出考试" />
     </p>
     </form>
 </body>

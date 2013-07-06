@@ -5,12 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title></title>
-    <script type="text/javascript">
-    
-      function pageLoad() {
-      }
-    
-    </script>
     <style type="text/css">
 
         .style3
@@ -30,7 +24,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <asp:ScriptManager ID="ScriptManager1" runat="server" />
+        
     </div>
     <div>
     

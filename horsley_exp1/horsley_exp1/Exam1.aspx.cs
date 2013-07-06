@@ -10,11 +10,6 @@ namespace horsley_exp1
     public partial class Exam1 : System.Web.UI.Page
     {
         public int score = 0;
-        protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
         protected void Button1_Click(object sender, EventArgs e)
         {
             score = 0;
@@ -23,8 +18,11 @@ namespace horsley_exp1
 
             if (CheckBoxList1.Items[0].Selected == true && CheckBoxList1.Items[2].Selected == true) score += 30;
             if (CheckBoxList2.Items[1].Selected == true && CheckBoxList2.Items[2].Selected == true) score += 30;
+        }
 
-
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Login.aspx");
         }
     }
 }
